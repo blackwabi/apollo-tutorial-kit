@@ -1,3 +1,4 @@
+
 import { makeExecutableSchema } from 'graphql-tools';
 
 const typeDefs = `
@@ -19,5 +20,6 @@ type Query {
   getFortuneCookie: String
 }
 `;
+
 
 export default makeExecutableSchema({ typeDefs });
